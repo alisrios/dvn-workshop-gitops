@@ -5,7 +5,7 @@ metadata:
   annotations:
     alb.ingress.kubernetes.io/load-balancer-name: dvn-application-load-balancer
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/subnets: subnet-04a8dbf0788b2c925,subnet-08d59219af47bcd5c # Update with your subnet IDs
+    alb.ingress.kubernetes.io/subnets: subnet-01310a104a82e170e,subnet-0e83143087c4a0ca4 # Update with your subnet IDs
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
 spec:
   ingressClassName: alb
