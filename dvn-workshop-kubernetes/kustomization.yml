@@ -2,22 +2,13 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-<<<<<<< HEAD
-- frontend/deploy.yml
-- frontend/service.yml
-- backend/deploy.yml
-- backend/service.yml
-- ingress.yml
-- argocd/application.yml
-
-=======
   - backend/deploy.yml
   - backend/service.yml
   - frontend/deploy.yml
   - frontend/service.yml
   - ingress.yml
-  
->>>>>>> 0a61353 (Ajuste de Ingress e kustomazation.yml)
+  - argocd/application.yml
+
 
 images:
 - name: 148761658767.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
