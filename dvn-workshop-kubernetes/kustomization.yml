@@ -16,4 +16,4 @@ images:
   newTag: 30dc1e25b00c0c2072aba1e16bf1d2960a243bb9
 - name: 148761658767.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/frontend
   newName: 148761658767.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/frontend
-  newTag: v1.0
+  newTag: 30dc1e25b00c0c2072aba1e16bf1d2960a243bb9
